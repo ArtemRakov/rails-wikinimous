@@ -1,0 +1,17 @@
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <!-- <a href="" class="navbar-wagon-brand">
+    <img src="alex.jpg" alt="logo">
+  </a -->
+
+  <%= link_to articles_path do %>
+    <%= image_tag "alex.jpg", class: "avatar" %>
+  <% end %>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+     <%= link_to 'New article', new_article_path, class: "navbar-wagon-item navbar-wagon-link" %>
+
+    <!-- Profile picture with dropdown list -->
+  </div>
+</div>
